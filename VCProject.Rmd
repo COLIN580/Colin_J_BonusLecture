@@ -10,4 +10,9 @@ This is a Plot of iris sepal length vs. iris sepal width
 plot(iris$Sepal.Length, iris$Sepal.Width)
 ```
 
+This is a plot using the airquality dataset to plot wind vs tempurature
+
+```{r}
+plot(airquality$Wind, airquality$Temp, pch = 8)
+```
 
